@@ -1,0 +1,45 @@
+{
+  "name": "dsh-pair",
+  "version": "0.1.0",
+  "description": "Two coding agents, one repository: shared claims, an intent board, and real diffs — git as the coordination layer.",
+  "type": "module",
+  "bin": {
+    "pair": "./src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "bin",
+    "AGENTS.pair.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "server": "node ./src/server.mjs",
+    "ui": "node ./src/ui.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "multi-agent",
+    "agents",
+    "codex",
+    "claude-code",
+    "dsh",
+    "git",
+    "pair-programming",
+    "cli"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfule638-ui/dsh-pair.git"
+  },
+  "homepage": "https://github.com/cfule638-ui/dsh-pair#readme",
+  "bugs": {
+    "url": "https://github.com/cfule638-ui/dsh-pair/issues"
+  }
+}
