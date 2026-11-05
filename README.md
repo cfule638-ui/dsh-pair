@@ -2,6 +2,11 @@
 
 **Two coding agents. One repository. No collisions.**
 
+[![CI](https://github.com/cfule638-ui/dsh-pair/actions/workflows/ci.yml/badge.svg)](https://github.com/cfule638-ui/dsh-pair/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Node](https://img.shields.io/badge/node-%E2%89%A520-brightgreen.svg)](package.json)
+[![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](package.json)
+
 `pair` gives a pair of AI coding agents (Codex + Claude Code, DSH + Codex, anything that can run a shell or speak MCP) a shared working surface inside a single git checkout:
 
 - **claims** — "I'm editing these files", enforced, so the other agent backs off instead of silently overwriting you
